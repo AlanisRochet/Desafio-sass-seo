@@ -1,0 +1,9 @@
+@mixin flex($just, $fontf, $fonts, $marg, $padd, $fontw){
+    display: flex;
+    justify-content: $just;
+    font-family: $fontf;
+    font-size: $fonts;
+    margin: $marg;
+    padding: $padd; 
+    font-weight: $fontw; 
+    }
